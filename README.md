@@ -1,7 +1,7 @@
-# Calculator
+# Calculator (GUI)
 
 ## `--About--`
-__A basic GUI based calculator written in `Python` and `PyQt6`.
+__A basic GUI based calculator written in `Python` and `PyQt6`.__
 
 > Written by `Tauseef Hilal Tantary`. *A beginner Python Programmer.*
 
@@ -18,6 +18,6 @@ __A basic GUI based calculator written in `Python` and `PyQt6`.
 
 
 ## `--Depends On--`
-*PyQt6==6.0.3*
-*PyQt6-Qt6==6.0.2*
-*PyQt6-sip==13.0.1*
+*PyQt6==6.0.3*<br>
+*PyQt6-Qt6==6.0.2*<br>
+*PyQt6-sip==13.0.1*<br>
