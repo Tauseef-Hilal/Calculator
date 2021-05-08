@@ -1,0 +1,23 @@
+# Calculator
+
+## `--About--`
+__A basic GUI based calculator written in `Python` and `PyQt6`.
+
+> Written by `Tauseef Hilal Tantary`. *A beginner Python Programmer.*
+
+
+## `--SYSTEM Requirements--`
+* **OS**: Any
+* **RAM**: 15MB
+* ***Python and other dependencies must be installed!***
+
+
+## `--Installation--`
+* Download the repository.
+* Run **`install.py`** to install dependencies.
+
+
+## `--Depends On--`
+*PyQt6==6.0.3*
+*PyQt6-Qt6==6.0.2*
+*PyQt6-sip==13.0.1*
