@@ -25,7 +25,7 @@ class View(QMainWindow):
         # General Layout
         self.genralLayout = QVBoxLayout()
         self.genralLayout.setContentsMargins(0, 0, 0, 0)
-        
+
         # Setup central widget
         self._centralWidget = QWidget(self)
         self.setCentralWidget(self._centralWidget)
@@ -64,10 +64,10 @@ class View(QMainWindow):
         self.display.setReadOnly(True)
         self.display.setStyleSheet(style)
         self.genralLayout.addWidget(self.display)
-    
+
     def _createButtons(self):
         """Create buttons"""
-        
+
         self.buttons = {}
         buttonsLayout = QGridLayout()
 
@@ -111,22 +111,23 @@ class View(QMainWindow):
             self.buttons[btnText] = QPushButton(btnText)
             self.buttons[btnText].setFixedSize(40, 40)
             if pos[1] in {3, 4}:
-                self.buttons[btnText].setStyleSheet(style %("color: 'cyan';"))
+                self.buttons[btnText].setStyleSheet(style % ("color: 'cyan';"))
             else:
-                self.buttons[btnText].setStyleSheet(style %("color: 'white';"))
+                self.buttons[btnText].setStyleSheet(
+                    style % ("color: 'white';"))
             buttonsLayout.addWidget(self.buttons[btnText], *pos)
-        
+
         self.genralLayout.addLayout(buttonsLayout)
-    
+
     def _setDisplayText(self, text):
         """Set display's text"""
         self.display.setText(text)
         self.display.setFocus()
-    
+
     def _displayText(self):
         """Get display's text"""
         return self.display.text()
-    
+
     def _clearDisplay(self):
         """Clear the display"""
         self._setDisplayText('')

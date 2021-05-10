@@ -13,6 +13,7 @@ except ModuleNotFoundError:
     input("Please follow the instructions in README to install dependencies.")
     exit()
 
+
 def main():
     """Start of the program"""
     view = View()
